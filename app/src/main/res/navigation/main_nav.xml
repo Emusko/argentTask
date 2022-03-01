@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/home_fragment">
+
+
+    <fragment
+        android:name="com.example.argent.presentation.list.TokenListFragment"
+        android:id="@+id/token_list_fragment"
+        android:label="TokenListFragment"/>
+
+    <fragment
+        android:name="com.example.argent.presentation.home.HomeFragment"
+        android:id="@+id/home_fragment"
+        android:label="HomeFragment">
+    </fragment>
+
+</navigation>

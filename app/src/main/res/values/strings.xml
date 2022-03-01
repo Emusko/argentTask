@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ArgentTask</string>
+    <string name="balance_format">%1$s Balance</string>
+    <string name="amount_format">%1$s %2$s</string>
+</resources>
